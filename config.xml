@@ -38,6 +38,9 @@
 	<preference name="android-targetSdkVersion" value="28" />             <!-- android: Target SDK version supported on the target device. Set to latest greatest. -->
 	<preference name="android-installLocation" value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 
+	<!-- permissions -->
 	<access origin="*" />
-
+	<allow-intent href="https://*/*" />
+	<allow-navigation href="https://*/*" launch-external="yes" />
+	<allow-navigation href="data:*" launch-external="yes" />
 </widget>
