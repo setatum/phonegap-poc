@@ -16,7 +16,7 @@
 	</author>
 
 	<icon src="icon.png" gap:role="default" />
-	<splash="splash.png" width="320" height="460" />
+	<splash src="splash.png" width="320" height="460" />
 
 <!-- <feature name="http://api.phonegap.com/1.0/geolocation"/> -->
 	<feature name="http://api.phonegap.com/1.0/network"/>
