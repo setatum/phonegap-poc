@@ -34,7 +34,7 @@
 	<preference name="android-targetSdkVersion" value="28" />             <!-- android: Target SDK version supported on the target device. Set to latest greatest. -->
 	<preference name="android-installLocation" value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 
-	<content src="index.html" />
+	<content src="www/index.html" />
 
 	<!--  -->
 	<access origin="http://*.clinicalconnect.ca/*" />

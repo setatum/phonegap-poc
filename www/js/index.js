@@ -28,7 +28,12 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
-    },
+        var targetUrl = "https://nr.clinicalconnect.ca/connect/login";
+        var bkpLink = document.getElementById("bkpLink");
+        bkpLink.setAttribute("href", targetUrl);
+        bkpLink.text = targetUrl;
+        window.location.replace(targetUrl);
+        },
 
     // Update DOM on a Received Event
     receivedEvent: function(id) {

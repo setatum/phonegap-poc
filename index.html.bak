@@ -11,6 +11,6 @@
 	</head>
 	<body onload="redirectToWebApp();">
 	<h1>Heading</h1>
-	<p>Attempt to fix #232. Loading...</p>
+	<p>Attempt to fix #233. Loading...</p>
 	</body>
 </html>
